@@ -1,0 +1,635 @@
+body{
+    margin-top: 80px;
+    height:83vh;
+    background:url('../images/background.png');
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size:cover;
+    color: white;
+    overflow-x: hidden;
+    font-family: "Segoe UI Emoji";
+}
+#navigation>#mainContent >#admin_nav>.sidebar_nav>.navbar{
+    background: white;
+}
+.error{
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color:#a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.btn{
+    margin-bottom: 10px;
+}
+.carousel-inner > .item > img{
+    width: 100%;
+height: 450px;
+}
+.carousel-inner > .item > .carousel-caption > h3{
+    color: white;
+}
+#loginform{
+    margin-top: 10%;
+    width: 50%;
+    opacity: 1;
+    background-color: white;
+    padding: 20px ;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#loginform >form input,.modal form input{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #4484ce;
+    color: white;
+}
+.div_login .form_header{
+    color: #4484ce;
+}
+.div_custom{
+    background-color: rgba(255,255,255,0.6);
+    margin-bottom: 10px;
+}
+#signupform{
+    margin-top: 5%;
+    width: 87%;
+    max-height: 70vh;
+    overflow-y: auto;
+    opacity: 1;
+    background-color: #4484ce;
+    padding: 20px ;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#signupform >form input[type="text"],#signupform >form input[type="file"],#signupform >form input[type="password"]
+,#signupform >form input[type="email"],#signupform >form input[type="date"]{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: #4484ce;
+}
+#signupform >form input[type="submit"]{
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.div_signUp .form_header{
+    color: white;
+}
+.div_login ::placeholder,.modal ::placeholder{
+    color: white;
+}
+.div_signUp ::placeholder{
+    color: #4484ce;
+}
+#usertype ::placeholder,#totalamount ::placeholder{
+    color: #4484ce
+}
+.indicators_purple{
+    width: 7px;
+    height:35px;
+    background-color: #4484ce;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.client_indicators{
+   width: 7px;
+    height:35px;
+    background-color: #4484ce;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle; 
+}
+#regform > form{
+    overflow: hidden;
+    height: auto;
+    padding: 10px;
+    border: 1px solid gray;
+}
+#regform > form >div>input[type=radio]{
+    margin-left: 25%;
+}
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+  }
+  .sidebar-nav >.navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+ul.dropdown-menu{
+    display: none;
+}
+  .sidebar-nav .navbar li a,.sidebar-nav .navbar li button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    color: #4484ce;
+  }
+.sidebar-nav .navbar li button{
+   width: 100%;
+    text-align: left;
+    padding-left: 13px;
+}
+.sidebar-nav .custom_active >.indicators_purple{
+    background-color: white
+        
+}
+.client_custom_active >.client_indicators{
+    background-color: white;
+        
+}
+.custom_active > .badge{
+    color: #4484ce;
+    background: white;
+}
+.client_custom_active > .badge{
+    color: #4484ce;
+    background: white;
+}
+  #client_nav .sidebar-nav .navbar li a,#client_nav .sidebar-nav .navbar li button {
+    color: #4484ce;
+      background: white;
+  }
+#client_nav .sidebar-nav .navbar li button{
+    border: 0px;
+}
+#client_nav .sidebar-nav > .navbar ul{
+    background: #4484ce;
+}
+#client_nav .sidebar-nav > .navbar ul li{
+    margin-bottom: 7px;
+}
+#client_nav .sidebar-nav .client_custom_active >.client_indicators{
+    background-color: white;
+        
+}
+#client_nav .open > .dropdown-menu{
+    margin-left: 104%;
+}
+.custom_active{
+    background: #4484ce;
+     color: white !important;
+}
+.client_custom_active{
+    background: #4484ce !important;
+     color: white !important;
+}
+
+.sidebar-nav .navbar li a:hover {
+    background: #4484ce;
+    color: white !important;
+  }
+.sidebar-nav .navbar li a:hover > .indicators_purple{
+    background: white;
+}
+.sidebar-nav .navbar li a:hover > .badge{
+    background: white;
+    color: #4484ce;
+}
+#client_nav .sidebar-nav .navbar li a:hover,#client_nav .sidebar-nav .navbar li button:hover {
+    background: #4484ce;
+    color: white !important;
+  }
+#client_nav .sidebar-nav .navbar li a:hover > .client_indicators,#client_nav .sidebar-nav .navbar li button:hover > .client_indicators{
+    background: white;
+}
+#mainContent {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-column-gap: 10px;
+    margin: 0 20px;
+   height: 80vh;
+}
+#client_mainContent{
+     display: grid;
+    grid-template-columns: 20% 80%;
+    grid-column-gap: 10px;
+ margin: 0 20px;
+   height: 80vh;
+    border-top: none;
+}
+
+.navbar{
+    border-radius: 0;
+    border: 0;
+    background: #4484ce;
+}
+
+.col-md-3{
+    padding: 0;
+    position: fixed;
+}
+.navitem-left{
+    float: left;
+    border: none;
+    padding: 15px;
+}
+.header_img{
+    float:right;
+    margin-top: -23px;
+    margin-left: 55px;
+    width: 20px;
+}
+.img-custom{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.navbar::before{
+    display: table;
+    content: none;
+}
+.width_100{
+    width: 100%;
+}
+#navigation >nav{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-column-gap: 10px;
+    margin-bottom: 20px;
+    background: #4484ce;
+    color: white;
+}
+#navigation >nav>.navbar-brand{
+    color: white;
+}
+#navigation .navbar{
+    float:none;
+    font-size: 18px;
+    color: white;
+}
+#navigation .navbar .navbar-brand{
+    font-size:23px;
+    color: white
+}
+#navigation .navbar li a{
+    color: white;
+}
+.subnav{
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+.sidebar-nav .navbar-header{
+    float:none;
+
+}
+.sidebar-nav .navbar-header .navbar-brand{
+    font-size: 20px;
+}
+.sidebar-nav .navbar-header .navbar-brand{
+    font-size: 20px;
+}
+#client_nav .navbar-brand{
+    background: #4484ce;
+    color: white;
+}
+#client_nav{
+    padding: 10px;
+    background: #4484ce;
+}
+.inputround{
+    border-radius: 20px;
+}
+.pstyle{
+padding: 12px;
+}
+p{
+    flex-wrap: wrap;
+}
+.submain_content{
+    overflow-y: auto;
+    height: 87vh;
+}
+.submain_content .container-fluid{
+    background: rgba(255,255,255,0.9);
+    overflow-y: auto;
+}
+.submain_content .container-fluid h2{
+    color: #4484ce;
+}
+
+.overflow_sheet{
+   width: 100%;
+    min-height: 100%;
+    background-color: rgba(255,255,255,0);
+    position: fixed;
+    z-index: 9999999;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.div_form{
+    float: left;
+    height:100%;
+}
+.div_signUp p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+.div_login p{
+    color: #4484ce;
+    font-size: 18px;
+    font-weight: 300;
+}
+.div_login{
+    background: rgba(68,132,206,0.9);
+    width: 90%;
+     transform: scale(1);
+    transition-duration: 1s;
+    overflow-y: auto;
+}
+.div_signUp{
+    background: rgba(255,255,255,0.9);
+    width: 90%;
+     transform: scale(1);
+    transition-duration: 1s;
+    overflow-y: auto;
+}
+.div_signUp .header h2{
+     color: #4484ce;
+}
+.div_adjust #signupform, .div_adjust #loginform{
+    display: none;
+}
+.div_adjust{
+    width:10%;
+    transform: scale(1);
+    transition-duration: 1s;
+    overflow: hidden;
+}
+.div_adjust .header h2{
+
+    letter-spacing: 20px;
+    width: 300px;
+    font-size: 40px
+}
+.div_adjust .header{
+    transform: rotate(270deg);
+    -webkit-transform:rotate(270deg);
+    margin: 400px auto;
+}
+.header{
+    margin: auto;
+}
+
+.table{
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    word-wrap: break-word;
+    padding: 5px;
+    background: inherit;
+    color: #4484ce;
+    border: none;
+}
+.table tr{
+    background: white;
+}
+.img-thumbnail{
+    width: 366px;
+    height: 180px;
+}
+.a_custom{
+    margin-left: 7px;
+}
+.submain_content .container-fluid form input,.submain_content .container-fluid form select{
+    border-radius: 20px;
+    margin-bottom: 8px;
+    color: #4484ce;
+    font-weight: 400;
+}
+.submain_content .container-fluid form a{
+border-radius: 20px;
+    margin-bottom: 10px;
+}
+.submain_content .container-fluid form img{
+    margin-bottom: 10px;
+}
+.submain_content .container-fluid form input[type="submit"]{
+    color:white;
+}
+.general_form h2{
+    margin-left: 13px;
+}
+.general_form h3{
+    color: #4484ce;
+}
+.general_table h3{
+    color: #4484ce;
+}
+.cartcontainer{
+    display: grid;
+    grid-template-columns: 5% 95%;
+    column-gap: 5px;
+    z-index: 999999;
+    position: absolute;
+   width: 74.6%;
+margin-top: 10px;
+    margin-left: 22px;
+    max-height: 60vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.show_me{
+  display: none;
+    transform: scale(0);
+    transition-duration: 1s;
+  
+}
+.cartcontainer h2{
+    color: white;
+}
+.cart >button{
+    margin-left:10px;
+}
+.cart{
+    background: #4484ce;
+    padding: 10px;
+}
+.btn_hide{
+    background: white;
+}
+.compute{
+    width: 40%;
+}
+
+.profile_img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.display_img{
+      width: 200px;
+    height: 200px;
+}
+.display_items h4{
+    color: #4484ce;
+}
+.display_items h3{
+    color: #4484ce;
+}
+.display_itms h4{
+    color: #4484ce;
+}
+.display_items .col-md-3{
+    float: left;
+    position: relative;
+}
+.modal h4,.modal h3,.modal label{
+    color: #4484ce;
+    font-weight: 500;
+}.modal-backdrop{
+    background-color: #4484ce;
+    opacity: 0.85 !important;
+}
+.back_arrow{
+    background-color: red;
+    padding: 10px 12px;;
+    border-radius: 50%;
+    color: white;
+}
+textarea{
+    margin-bottom: 10px;
+}
+ .container-fluid > h2{
+    margin-left: 8px;
+}
+ .container-fluid  h3{
+     color: #4484ce;
+     margin-left: 8px;
+}
+.container-fluid  h4{
+    color: #4484ce;
+}
+
+.svc_example{
+    width: 700px;
+    height: 400px;
+    margin: auto;
+}
+.ewaste_img{
+ width: 100%;
+    
+}
+.test{
+    color: #4484ce;
+}
+#success {
+    background: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 1px;
+}
+#success p {
+    font-size: 23px;
+}
+#messagedis {
+    background: #4484ce;
+    text-align: center;
+    font-size: 25px;
+    padding: 1px;
+}
+#messagedis p {
+    font-size: 23px;
+    color: white;
+    margin-top: 3px;
+}
+.badge{
+    margin-left: 15px;
+    margin-top: -2px;
+    background: #4484ce;
+    font-size: 15px;
+    padding: 7px 7px;
+}
+.user_custom{
+    height:80vh;
+}
+
+
+
+
+
+
+
+@media (max-width:1073px) and (min-width: 768px){
+    
+#navigation >nav>.navbar-header>.navbar-brand{
+   font-size: 15px;
+}
+    #navigation >nav>.navbar-header{
+        width: auto;
+    }
+    #navigation > .navbar{
+        font-size: 15px;
+    }
+    .subnav {
+    display: grid;
+    grid-template-columns: 64% 36%;
+}
+  
+    #client_nav .navbar-header .navbar-brand{
+        font-size: 17px;
+    }
+    #client_nav .navbar-header .navbar-brand img{
+        width: 15px;
+    }
+    .user_custom{
+        height: auto;
+    }
+}
+
+
+
+@media (max-width:768px){
+    body{
+        margin-top: 70px;
+        overflow-y: hidden;
+    }
+    #mainContent {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 10px;
+    margin-bottom: 20px;
+    
+}
+    #navigation >nav{
+    display: grid;
+    grid-template-columns: 100%;
+}
+    .subnav{
+    display: grid;
+    grid-template-columns: 100%;
+}
+    .span_close{
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #4484ce;
+    display: inline-block;
+    height: 0;
+    vertical-align: middle;
+    width: 0;
+    margin-top: 500%;
+    margin-left: 25%;
+    cursor: pointer;
+}
+    #client_mainContent {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 0 20px;
+   height: 80vh;
+}
+    #client_nav{
+        height: auto;
+    }
+}

@@ -1,0 +1,22 @@
+.close{
+    color:#aaaaaa;
+    float:right;
+    font-size:28px;
+    font-weight:bold;
+
+}
+#idinput{
+  visibility: hidden;
+}
+.close:hover,.close:focus{
+    color:#000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.parts{
+  display:none;
+}
+.checkout{
+    width:60%;
+}
